@@ -17,7 +17,7 @@ try:
         print("\n")
         print("THANKS FOR CHECKING THIS OUT!")
         print("\n")
-    elif exchange[0]== "$":
+    else:
         print(str(exchange) + " is equivalent to #" + str(int(exchange[1:])*int(conversion_rate)) + "  (Using a fix conversion rate of " +str(conversion_rate) + ")")
         print("\n")
         print("THANKS FOR CHECKING THIS OUT!")
