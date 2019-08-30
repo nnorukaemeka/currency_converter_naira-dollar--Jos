@@ -19,8 +19,8 @@ def nairaDollar_converter (response):
             print("THANKS FOR CHECKING THIS OUT!\n")
           
     except ValueError:
-        print("ValueError: amount must be valid numbers  \n")      
-
+        print("ValueError: amount must be valid numbers  \n")  
+            
 
 
 #with a global scope:
